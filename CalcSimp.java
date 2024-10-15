@@ -5,7 +5,8 @@ public class CalcSimp {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int numero1, numero2, resultado, operacion;
+		int numero1, numero2, operacion;
+		float resultado;
 		
 		System.out.println ("operacion");
 		System.out.println ("1. Suma (+)");
