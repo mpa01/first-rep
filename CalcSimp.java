@@ -6,7 +6,7 @@ public class CalcSimp {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int numero1, numero2, operacion;
-		float resultado;
+		double resultado;
 		
 		System.out.println ("operacion");
 		System.out.println ("1. Suma (+)");
@@ -33,7 +33,7 @@ public class CalcSimp {
 		 System.out.println (" El resultado es " + resultado);
 		} else if (operacion == 4 ) {
 			if (numero2 != 0) {
-			resultado = numero1 / numero2;
+			resultado = (double) numero1 / numero2;
 		 System.out.println (resultado);
 		} else {
 			System.out.println (" Error: no se puede dividir entre 0 ");
